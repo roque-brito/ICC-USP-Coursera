@@ -1,0 +1,3 @@
+- Exemplos sobre listas e variações de listas;
+- Aplicação do comando "for" aplicado a listas
+- Aplicação do comando "range" aplicado a listas

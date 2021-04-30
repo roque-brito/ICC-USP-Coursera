@@ -1,0 +1,56 @@
+# atributos orbitais(órbita em ano terrestre - fator = 365.25 dias): type = float
+mercurio.planeta    = 'Mercúrio'
+mercurio.revolucao  = 0.22  
+mercurio.diametro   = 0,37 
+mercurio.distancia  = 0,39 
+mercurio.satelites  = 0
+mercurio.gravidade  = 0.39 
+
+venus.planeta    = 'Vênus'
+venus.revolucao  = 0.67
+venus.diametro   = 0,96 
+venus.distancia  = 0.72 
+venus.satelites  = 0
+venus.gravidade  = 0.89 
+
+terra.planeta   = 'Terra'
+terra.revolucao = 1 # ano
+terra.diametro  = 1 # 12.756 km
+terra.distancia = 1 # Unidade Astronômica (UA)
+terra.satelites = 1
+terra.gravidade = 1 # [g]
+
+marte.planeta    = 'Marte'
+marte.revolucao  = 1.88
+marte.diametro   = 0,53
+marte.distancia  = 1,53
+marte.satelites  = 2
+marte.gravidade  = 0.38
+
+jupiter.planeta    = 'Jupiter'
+jupiter.revolucao  = 11.86
+jupiter.diametro   = 11,19
+jupiter.distancia  = 5.19
+jupiter.satelites  = 79
+jupiter.gravidade  = 2.35
+
+saturno.planeta    = 'Saturno'
+saturno.revolucao  = 29.46
+saturno.diametro   = 9.41
+saturno.distancia  = 9.55
+saturno.satelites  = 82
+saturno.gravidade  = 1.16
+
+urano.planeta    = 'Urano'
+urano.revolucao  = 84.02
+urano.diametro   = 4.00
+urano.distancia  = 19.19
+urano.satelites  = 27
+urano.gravidade  = 1.11
+
+netuno.planeta    = 'Netuno'
+netuno.revolucao  = 165.0
+netuno.diametro   = 3.53
+netuno.distancia  = 30.03
+netuno.satelites  = 14
+netuno.gravidade  = 1.38

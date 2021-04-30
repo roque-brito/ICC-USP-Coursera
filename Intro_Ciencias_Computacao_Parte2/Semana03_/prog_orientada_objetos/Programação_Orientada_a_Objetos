@@ -1,0 +1,46 @@
+Evolução das linguagens:
+1. linguagens de máquinas;
+    - 00111001 00011101 001101010
+
+2. linguagen de montagem (Assembly) 
+    - ADD AX, BX
+    - INC
+
+3. linguagen de Alto Nível
+    - Fortran
+    - 
+
+4. programação procedimental
+
+5. programação funcional
+
+6. programação Orientada a Objetos
+    - simular Objetos
+    - Objeto = dados + código (manipula os dados)
+    - trás a ideia de ENCAPSULAMENTO = cada capsula é um Objeto (evita que objetos interajam)
+    - Classes = definem tipos (int, str, float, tup, list, ...) de objetos e o código dos objetos 
+    - Código => métodos
+    - Objetos são chamados de instâncias das Classes
+
+    EXEMPLO
+        - Classe: carro
+        - instâncias: meu_carro, carro_do_ime
+        - atributos:
+            * ano, modelo, cor, velocidade
+        - métodos:
+            * acelera (velocidade)
+            * pare()
+
+=====================================================================
+MÉTODOS:
+O método especial: __init__
+
+* Conshecido como CONSTRUTOR da classe
+* Chamado automaticamente pelo interpretador quando os objetos são criados
+    - i.e., quando as classes são instanciadas;
+
+class Carro:
+    def __init__(self, modelo, ano, cor):
+        self.modelo = modelo
+        self.ano    = ano
+        self.cor    = cor

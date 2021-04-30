@@ -1,0 +1,10 @@
+Módulos em Python = agrupamento de funções
+------------------------------------------------
+-> arquivos com extenção *.py contendo:
+    - definições;
+    - comandos (statements)
+
+-> um módulo pode ser importado por outro, utilizando o comando "import"
+
+-> o nome do módulo (nome do arquivo sem a extenção *.py fica disponível na variável __name__)
+

@@ -1,0 +1,27 @@
+Strings = objeto textual;
+Strings = coleções de objetos (valores) -> uma coleção seuqencial de caracteres
+texto = "15" # converte o número 15 (int) para Strings
+
+Podemos usar uma repetição em Strings: 
+texto = "Ilegal" * 3
+>>> "Ilegal" "Ilegal" "Ilegal" 
+===============================================================================
+Funções com Strings / Métodos da classe String:
+texto.upper()       --> transforma para maiúsculas;
+texto.lower()       --> transforma para minúsculas;
+texto.capitalize()  --> transforma a primeira letra para maiúsculas;
+texto.strip()       --> remove espaços vazios;
+texto.count()       --> conta uma(s) String(s);
+texto.replace()     --> substitui um pedaço de uma string por outro pedaço: sinstaxe = texto.replace('texto a ser substituido', 'texto que vai substituir');
+texto.center()      --> centraliza uma string: texto.capitalize().center(10);
+texto.find()        --> encontra uma letra, trecho(pedaço) ou palavra em String --- retorna a posição( numero inteniro); se não ohuver, retorna (-1);
+len(texo)           --> retorna o comprimento da string
+===============================================================================
+Podemos também fatiar Strings: slice, da segunte forma:
+>>> fruta = amora
+>>> fruta[:4]  retorna: 'amor' (pega as strings do início (posição "1") até a posição "4")
+>>> fruta[1:]  retorna: 'mora' (pega as strings da posição '2' até o final)
+>>> fruta[2:4] retorna: 'or'   (pega somente as strings da posição "3" e "4")
+===============================================================================
+Exercício: escrever uma função que recebe uma lista de Strings contendo nomes de pessoas como parâmetro e devolve o nome mais curto.
+A função deve ignorar espaços antes e depois do nome e deve devolver o nome "capitalizado", i.e., apenas com a 1ª letra maiúscula.
