@@ -1,14 +1,14 @@
 # atributos orbitais(órbita em ano terrestre - fator = 365.25 dias): type = float
 mercurio.planeta    = 'Mercúrio'
 mercurio.revolucao  = 0.22  
-mercurio.diametro   = 0,37 
-mercurio.distancia  = 0,39 
+mercurio.diametro   = 0.37 
+mercurio.distancia  = 0.39 
 mercurio.satelites  = 0
 mercurio.gravidade  = 0.39 
 
 venus.planeta    = 'Vênus'
 venus.revolucao  = 0.67
-venus.diametro   = 0,96 
+venus.diametro   = 0.96 
 venus.distancia  = 0.72 
 venus.satelites  = 0
 venus.gravidade  = 0.89 
@@ -22,14 +22,14 @@ terra.gravidade = 1 # [g]
 
 marte.planeta    = 'Marte'
 marte.revolucao  = 1.88
-marte.diametro   = 0,53
-marte.distancia  = 1,53
+marte.diametro   = 0.53
+marte.distancia  = 1.53
 marte.satelites  = 2
 marte.gravidade  = 0.38
 
 jupiter.planeta    = 'Jupiter'
 jupiter.revolucao  = 11.86
-jupiter.diametro   = 11,19
+jupiter.diametro   = 11.19
 jupiter.distancia  = 5.19
 jupiter.satelites  = 79
 jupiter.gravidade  = 2.35
