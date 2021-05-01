@@ -36,7 +36,6 @@ class Planetas:
         print('-'*40)
         print(f' | Planeta: {self.nome} \n | Revolução: {self.orbita} dias \n | Diametro: {self.diametro} Terra(s) \n | Satélites naturais: {self.moons} \n | Gravidade: {self.gravidade}')   
         print('-'*40)
-
     
 main()
 
