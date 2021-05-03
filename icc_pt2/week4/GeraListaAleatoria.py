@@ -11,9 +11,8 @@ def ListaAleatoria(intervalo_inicial, intervalo_final):
     
     return lista
 
-
-    
+# ======================= Teste =======================
 if __name__ == '__main__':
     
-    lista = ListaAleatoria(0, 1000)
+    lista = ListaAleatoria(0, 100)
     print(lista)
