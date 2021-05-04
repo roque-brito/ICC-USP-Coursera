@@ -1,0 +1,17 @@
+Introdução à Ciência da Comptação com Python Parte 2
+-----------------------------------------------------------------
+Semana 5: algoritmos de busca e ordenação: 
+    - algoritmo da bolha (bubbleSort): como medir o desempenho; explicação do algoritmo que calcula o tempo de execução de um código;
+    - melhorias no algoritmos da bolha: funcionamento com melhoria;
+    - busca binária: definição, funcionamento e testes. 
+-----------------------------------------------------------------
+Algoritmo "bubbleSort": 
+* Pensar numa lista como sendo equivalente a um tubo de ensaio (vertical eh claro), onde os elementos
+menos densos sobem à superfície como uma bolha e os mais densos afundam;
+* O algoritmo percorre a lista multiplas vezes; a cada passagem, compara todos os elementos adjacentes 
+e troca de lugar os que estiverem fora de ordem;
+* A cada passagem, o elemento mais pesado se deposita no fundo do tubo, i.e., o maior elemento da lista 
+vai para o final.
+ 
+
+
