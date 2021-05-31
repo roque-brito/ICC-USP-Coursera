@@ -1,6 +1,6 @@
 from time import time
 from random import randrange
-import ordenador
+import ordenador  
 
 class ContaTempos:
 
