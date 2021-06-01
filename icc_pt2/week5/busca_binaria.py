@@ -1,12 +1,6 @@
 # código para executar uma busca binária:
 
 class Buscador:
-    def buscador_sequencial(self, lista, x):
-        for i in range(len(lista)):
-            if lista[i] == x:
-                return i
-        return False
-
     def busca_binaria(self, lista, x):
         primeiro = 0
         ultimo = len(lista) - 1

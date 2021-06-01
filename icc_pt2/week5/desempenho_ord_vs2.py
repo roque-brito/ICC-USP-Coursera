@@ -1,6 +1,6 @@
+import ordenadores
 from time import time
 from random import randrange
-import ordenador
 
 class ContaTempos:
 
@@ -17,7 +17,7 @@ class ContaTempos:
         lista1 = self.lista_aleatoria(n)
         lista2 = lista1[:]  # lista1 foi "clonada"
 
-        ordena = ordenador.Ordenador()
+        ordena = ordenadores.Ordenador()
 
         print('-='*17)
         print('Comparação 1 | listas aleatórias:')

@@ -1,7 +1,3 @@
-# Exemplo apresentado em aula: ordenadores
-#   1. selecao_direta
-#   2. bolha
-
 class Ordenador:
     def selecao_direta(self, lista):
         ''' (self, list) --> list'''
@@ -29,7 +25,6 @@ class Ordenador:
                     lista[j], lista[j+1] = lista[j+1], lista[j]
         return lista
 
-    
     def bolha_quick(self, lista):
         ''' (self, list) --> list'''
         fim = len(lista)
@@ -46,16 +41,7 @@ class Ordenador:
 
         return lista 
 
-# -------- Teste --------
-if __name__ == "__main__":
-    vetor = [5, 1, 7, 3, 2]
 
-    O = Ordenador()
-    x = O.bolha(vetor)
-    y = O.bolha_quick(vetor)
-    
-    print(x)
-    print(y)
 
 
 
