@@ -1,3 +1,6 @@
 Semana 6:
 Aula 1: Recursão
 
+Aula 3:
+# Ordenação por intercalação: "MergeSort";
+# Divida a lista na metade RECURSIVAMENTE, até que cada sublista contenha apenas 1 elemento (portanto, já ordenada);

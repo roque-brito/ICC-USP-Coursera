@@ -17,6 +17,13 @@ def busca_binaria(lista, elemento, min=0, max=None):
         return meio
 
 l = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
+a = [-10, -2, 0, 5, 66, 77, 99, 102, 239, 567, 875, 934]
+
+if __name__ == '__main__':
+    busca = busca_binaria(a, 99)
+    print(busca)
+
+
 
 import pytest
 
@@ -35,7 +42,8 @@ import pytest
     (l, 11, False),
     (l, 21, False),
     (l, 31, False),
-    (l, 71, False)
+    (l, 71, False),
+    (l, -1, False)
     ])
 
 def testa_busca_binaria(lista, valor, esperado):

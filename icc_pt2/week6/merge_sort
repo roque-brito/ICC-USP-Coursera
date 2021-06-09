@@ -1,0 +1,31 @@
+# Ordenação por intercalação: "MergeSort";
+# Divida a lista na metade RECURSIVAMENTE, até que cada sublista contenha apenas 1 elemento (portanto, já ordenada);
+ 
+def merge_sort(lista):
+    if len(lista) <= 1:     # BASE DA RECURSÃO
+        return lista
+
+    meio = len(lista) // 2
+
+    lado_L = merge_sort(lista[:meio])
+    lado_R = merge_sort(lista[meio:])
+
+    return merge(lado_L, lado_R)
+
+def merge(lado_L, lado_R):
+    if not lado_L:
+        return lado_R
+
+    if not lado_R:
+        return lado_L
+    
+    if lado_L[0] < lado_R[0]:
+        return [lado_L[0] + merge(lado_L[1:], lado_R)]
+
+    return [lado_R[0] + merge(lado_L, lado_R[1:])]
+
+'''
+if __name__ == '__main__':
+    a = [-10, -2, 0, 5, 66, 77, 99, 102, 239, 567, 875, 934]
+    ms = merge_sort(a)
+'''

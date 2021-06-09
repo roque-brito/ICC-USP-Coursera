@@ -1,11 +1,15 @@
 def fibonacci(n):
-    if n < 2:
+    if n < 2: # BASE DA RECURSÃO
         return n
     else:
-        return fibonacci(n-1) + fibonacci(n-2)
+        return fibonacci(n-1) + fibonacci(n-2) # CHAMADA RECURSIVA
 
+if __name__ =='__main__':
+    fibo = fibonacci(10)
+    print(fibo)
+
+'''
 import pytest
-
 @pytest.mark.parametrize("entrada, esperado",
                          [
                              (0,0),
@@ -23,3 +27,4 @@ import pytest
 
 def testa_fibonacci(entrada, esperado):
     assert fibonacci(entrada) == esperado
+'''
